@@ -7,7 +7,7 @@ body {
     padding: 0px;
     height: 100vh;
     display: grid;
-    grid-template-rows: 25% 10% 75% 15% 20% 20%  ;
+    grid-template-rows: 25% 10% 65% 10% 10% 20% ;
     grid-template-columns: auto;
     gap: 20px;
 
@@ -15,9 +15,8 @@ grid-template-areas:
 "h h h"
 "nav1 nav2 nav3"
 "a a a"
-"as1 as1 as1"
 "as2 as2 as2"
-"as3 as3 as4"
+"as3 as3 as3"
 "f f f"
 ;
 
@@ -40,6 +39,7 @@ h1 {
     grid-area: nav1;
     background-color:rgb(51, 51, 51);
     color: whitesmoke;
+    margin-left: 50%;
 }
 
 #nav2 {
@@ -58,30 +58,24 @@ h1 {
     grid-area: a;
     background-color:rgb(51, 51, 51);
     color: whitesmoke;
+    margin-left: 150px;
 }
 
-#as1 {
-    grid-area: as1;
-    background-color:rgb(51, 51, 51);
-    color: whitesmoke;
-}
+
 
 #as2 {
     grid-area: as2;
     background-color:rgb(51, 51, 51);
     color: whitesmoke;
+    margin-left: 42%;
 }
 #as3 {
     grid-area: as3;
     background-color:rgb(51, 51, 51);
     color: whitesmoke;
+    margin-left: 39%;
 }
 
-#as4 {
-    grid-area: as4;
-    background-color:rgb(51, 51, 51);
-    color: whitesmoke;
-}
 
 footer {
     grid-area: f;
