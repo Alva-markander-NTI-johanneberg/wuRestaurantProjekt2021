@@ -17,6 +17,7 @@ grid-template-areas:
 "a a a"
 "as1 as1 as1"
 "as2 as2 as2"
+"as3 as3 as4"
 "f f f"
 ;
 
@@ -67,6 +68,17 @@ h1 {
 
 #as2 {
     grid-area: as2;
+    background-color:rgb(51, 51, 51);
+    color: whitesmoke;
+}
+#as3 {
+    grid-area: as3;
+    background-color:rgb(51, 51, 51);
+    color: whitesmoke;
+}
+
+#as4 {
+    grid-area: as4;
     background-color:rgb(51, 51, 51);
     color: whitesmoke;
 }
