@@ -1,0 +1,60 @@
+#container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+
+}
+#container {
+    padding: 0px;
+    height: 100vh;
+   
+    grid-template-rows: 50% 10% 20% 80% 10% 10% ;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+
+    grid-template-areas:
+    "h h h"
+    "nav1 nav2 nav3"
+    "a a a"
+    "as3 as3 as3"
+    "as1 as1 as1"
+    "as2 as2 as2"
+    
+    ;
+
+}
+
+header {
+    grid-template-areas: h;
+
+
+}
+
+#nav1 {
+    grid-template-areas: nav1;
+}
+
+#nav2 {
+    grid-template-areas: nav2;
+}
+
+#nav3 {
+    grid-template-areas: nav3;
+}
+
+h1 {
+     grid-template-areas: a;
+}
+
+#as1 {
+    grid-template-areas:as1; 
+}
+
+#as2 {
+    grid-template-areas: as2;
+}
