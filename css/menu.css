@@ -1,60 +1,123 @@
-#container {
-    background-color: black;
+body {
+
+    background-image: url(../img/tobias-van-schneider-lHGeqh3XhRY-unsplash.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align:center;
 
 }
+
 #container {
-    padding: 0px;
-    height: 100vh;
-   
-    grid-template-rows: 50% 10% 20% 80% 10% 10% ;
-    grid-template-columns: 33% 33% 33%;
-    gap: 20px;
-    font-family: 'Courier New', Courier, monospace;
+   padding: 0px;
+   height: 100vh;
+   display: grid;
+   grid-template-rows: 50% 10% 40% 15% 15% 15% 10% 10% 20% ;
+   grid-template-columns: 33% 33% 33%;
+   gap: 20px;
+   font-family: 'Courier New', Courier, monospace;
 
-    
 
-    grid-template-areas:
-    "h h h"
-    "nav1 nav2 nav3"
-    "a a a"
-    "as3 as3 as3"
-    "as1 as1 as1"
-    "as2 as2 as2"
-    
-    ;
+
+grid-template-areas: 
+"h h h"
+"nav1 nav2 nav3"
+"a a a"
+"b b b"
+"c c c"
+"d d d"
+"as2 as2 as2"
+"as3 as3 as3"
+"f f f"
+;
 
 }
 
 header {
-    grid-template-areas: h;
+   grid-area: h;
+   
+   color: whitesmoke;
 
 
-}
-
-#nav1 {
-    grid-template-areas: nav1;
-}
-
-#nav2 {
-    grid-template-areas: nav2;
-}
-
-#nav3 {
-    grid-template-areas: nav3;
 }
 
 h1 {
-     grid-template-areas: a;
+   font-size: 70px;
+   
+   
 }
 
-#as1 {
-    grid-template-areas:as1; 
+#nav1 {
+   grid-area: nav1;
+   
+   color: whitesmoke;
+
 }
+
+#nav2 {
+   grid-area: nav2;
+   
+   color: whitesmoke;
+
+}
+
+#nav3 {
+   grid-area: nav3;
+  
+   color: whitesmoke;
+
+}
+
+#a {
+   grid-area: a;
+  
+   color: whitesmoke;
+   
+}
+
+#b {
+    grid-area: b;
+   
+    color: whitesmoke;
+    
+   
+ }
+
+ #c {
+    grid-area: c;
+  
+    color: whitesmoke;
+    
+   
+ }
+
+ #d {
+    grid-area: d;
+    
+    color: whitesmoke;
+    
+   
+ }
+
 
 #as2 {
-    grid-template-areas: as2;
+   grid-area: as2;
+   
+   color: whitesmoke;
+
+ 
+}
+#as3 {
+   grid-area: as3;
+  
+   color: whitesmoke;
+
+ 
+}
+
+
+footer {
+   grid-area: f;
+  
+   color: whitesmoke;
 }
